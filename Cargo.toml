@@ -1,0 +1,8 @@
+[package]
+name = "dark_pool_fhe"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tfhe = { version = "1.4.2", features = ["boolean", "shortint", "integer"] }
+rand = "0.8.5"
